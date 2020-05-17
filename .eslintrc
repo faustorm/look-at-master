@@ -1,0 +1,67 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+
+  "env": {
+    "browser": true
+    },
+
+  "globals": {
+    "process": true
+  },
+
+  "rules": {
+
+    "dot-location"            : [1, "property"],
+    "max-len"               : ["error", {
+      "code" : 80,
+      "ignoreStrings": true,
+      "ignoreComments": true,
+      "tabWidth": 2,
+      "ignoreTemplateLiterals": true
+    }],
+    "class-methods-use-this": 0,
+    "no-underscore-dangle"    : 0,
+    "no-return-assign"        : ["error", "except-parens"],
+    "key-spacing"             : 0,
+    "arrow-parens"            : [1, "always"],
+    "no-unneeded-ternary"     : 0,
+    "generator-star-spacing"  : 0,
+    "no-confusing-arrow"      : ["error", {"allowParens": true}],
+    "no-param-reassign"       : ["error", { "props": false }],
+    "func-names"              : ["error", "as-needed"],
+    "no-case-declarations"    : 0,
+
+    "react/jsx-filename-extension"    : [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "no-use-before-define"            : [ "error", "nofunc" ],
+    "import/first"                    : ["off"],
+    "jsx-a11y/no-static-element-interactions"  : 0,
+
+    "no-mixed-operators": ["error", {"allowSamePrecedence": true}],
+    "newline-per-chained-call": ["error"],
+
+    "react/prefer-stateless-function": ["warn"],
+    "import/no-named-as-default-member": ["warn"],
+    "prefer-arrow-callback": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-unused-expressions": ["error", { "allowTernary": true }],
+    "no-console": ["error", { "allow": ["error"] }]
+  },
+
+  "settings":{
+
+  },
+
+  "plugins": [
+    "jsx-a11y",
+    "react"
+  ]
+}

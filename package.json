@@ -1,0 +1,54 @@
+{
+  "name": "lookat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "NODE_ENV=lint eslint --cache src --ext js,jsx",
+    "lint:watch": "NODE_ENV=lint ./node_modules/.bin/nodemon -x 'npm run lint --fix'",
+    "lint:fix": "npm run lint -- --fix;"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "immutable": "^3.8.2",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.21.0",
+    "prop-types": "^15.6.1",
+    "pushwoosh-react-native-plugin": "^5.5.4",
+    "react": "16.3.0-alpha.1",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-native": "0.54.0",
+    "react-native-calendar": "^0.13.1",
+    "react-native-communications": "^2.2.1",
+    "react-native-conekta": "^2.0.1",
+    "react-native-device-info": "^0.17.3",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-immutable-list-view": "^0.7.2",
+    "react-native-maps": "git+https://github.com/react-community/react-native-maps.git",
+    "react-native-mixpanel": "0.0.16",
+    "react-native-star-rating": "^1.0.9",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.2.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1",
+    "remote-redux-devtools": "^0.5.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
