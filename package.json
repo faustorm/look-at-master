@@ -10,7 +10,7 @@
     "lint:fix": "npm run lint -- --fix;"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "immutable": "^3.8.2",
     "lodash.debounce": "^4.0.8",
     "moment": "^2.21.0",
