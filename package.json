@@ -13,7 +13,7 @@
     "axios": "^0.18.0",
     "immutable": "^3.8.2",
     "lodash.debounce": "^4.0.8",
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.1",
     "pushwoosh-react-native-plugin": "^5.5.4",
     "react": "16.3.0-alpha.1",
